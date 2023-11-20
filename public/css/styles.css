@@ -1,0 +1,167 @@
+/* styles.css */
+
+.simple-linear {
+    background: linear-gradient(#CE584A, #f28377);
+  }
+
+  * {
+    font-family: "Bahnschrift", sans-serif;
+  }
+
+  .navbar * {
+    color: white;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8D4CE;
+    opacity: 0.7;
+    z-index: 1;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align:left;
+    font-size: 2em;
+    z-index: 1;
+  }
+  .FaresaltadoTit {
+    color: #CE584A;
+  }
+  .FaresaltadoTxt
+  {
+    color: #f28377;
+  }
+  .custom-btn-color {
+    border-color: #CE584A;
+    color: #CE584A;
+  }
+  .custom-btn-color:hover {
+    background-color: #CE584A;
+    color: #ffffff; /* Cambia el color del texto en hover si es necesario */
+  }
+  footer {
+    background: #CE584A;
+    min-height: 70px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+}  section, footer
+{
+    width: 100%;
+  }
+  section img {
+    width: 100%;
+  }
+  .carousel-inner
+  {
+      max-height: 60rem;
+  }
+  .slmuebles
+  {
+    background: #f3b1aa;
+  }
+  .tarjeta-color
+  {
+    background: #fda89e;
+  }
+  .tarjeta-color2
+  {
+    background: #fea096;
+  }
+  .tarjeta-wh
+  {
+    background:white;
+  }
+  .tarjeta-font
+  {
+    color: #af3123;
+  }
+  .tarjeta-fontwh
+  {
+    color: white;
+  }
+  .clarito
+  {
+    background: #ffc3bc;
+  }
+
+  .img-content {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  /* styles.css */
+
+/* styles.css */
+
+/* ... Otros estilos ... */
+
+/* Estilos específicos para las tarjetas */
+.slmuebles,
+.tarjeta-color,
+.tarjeta-color2,
+.tarjeta-wh {
+    background: #fda89e; /* Color de fondo de las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen exterior */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.slmuebles img,
+.tarjeta-color img,
+.tarjeta-color2 img,
+.tarjeta-wh img {
+    width: 100%; /* Hacer que las imágenes ocupen el ancho completo de la tarjeta */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+.tarjeta-font,
+.tarjeta-fontwh {
+    color: #af3123; /* Color del texto en tarjetas con estas clases */
+}
+
+/* Estilos específicos para las tarjetas de servicios */
+.d-flex.wrap.bg-dark.bg-opacity-10.p-3.rounded {
+    background: #fda89e; /* Color de fondo de las tarjetas de servicios */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen exterior */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.d-flex.wrap.bg-dark.bg-opacity-10.p-3.rounded img {
+    width: 100%; /* Hacer que las imágenes ocupen el ancho completo de la tarjeta */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+.d-flex.wrap.bg-dark.bg-opacity-10.p-3.rounded h3 {
+    color: #af3123; /* Color del texto en las tarjetas de servicios */
+}
+
